@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+}
+
+.banner-content {
+    background-image: url(Images/banner.png);
+    background-color: rgba(32, 33, 48, 0.7);
+}
+
