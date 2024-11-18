@@ -8,8 +8,8 @@
 
 .banner-content {
     background-image: url(Images/banner.png);
+    background-color: #001320;
     position: relative;
-    background-color: rgb(5, 0, 34);
 }
 
 .banner-content {
@@ -93,7 +93,38 @@ main {
     color: white;
 }
 
+
+
+
+.module {
+    background-color: #252525;
+    margin: 24px;
+    border: 1px solid #33A8DB;
+    border-radius: 57px;
+    padding: 127px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: white;
+        font-family: "Poppins", serif;
+        font-weight: 200;
+        font-style: normal;
+        text-align: center
+}
+
+span {
+    color: #33A8DB;
+        font-family: "Poppins", serif;
+        font-weight: 200;
+        font-style: normal;
+        text-align: justify;
+}
+
 #mulher-code {
-    width: 300px;
+    width:100vh;
     height: auto;
+    object-fit: none;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction:column;
 }
