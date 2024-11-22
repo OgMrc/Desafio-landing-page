@@ -6,6 +6,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    border: 0px;
 }
 
 .banner-content {
@@ -20,6 +21,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction:column;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -137,6 +139,7 @@ span {
     position: relative;
     bottom: 350px;
     left: 280px;
+    display: flex;
 }
 
 #transform-world > p {
@@ -147,4 +150,34 @@ span {
     font-size: 40px;
     text-shadow: 3px 2px 0 #33A8DB;
     display: flex;
+}
+
+#professional-challenges > h2 {
+    font-family: "Poppins", serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 5px;
+    color: #33A8DB; 
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+#professional-challenges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 200px;
+}
+
+#professional-challenges > p {
+    width: 900px;
+    height: 50px;
+    text-align:center;
+    position: relative;
+    top: 50px;
 }
