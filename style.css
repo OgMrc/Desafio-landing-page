@@ -181,3 +181,9 @@ span {
     position: relative;
     top: 50px;
 }
+
+footer {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgb(9, 28, 37) 100%);
+}
+
